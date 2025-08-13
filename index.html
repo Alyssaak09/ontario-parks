@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <title>Reserve Your Camping Adventure - Ontario Parks</title>
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="styleguide.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="desktop">
+      <header class="frame-26">
+        <nav class="nav-bar" role="navigation" aria-label="Main navigation">
+          <div class="frame-27">
+            <img class="logo" src="image/ontario parks logo.png" alt="Ontario Parks Logo" />
+            <ul class="nav-menu" role="menubar">
+              <li role="none"><a href="#" class="text-wrapper-17" role="menuitem" aria-current="page">Home</a></li>
+              <li role="none"><a href="#" class="text-wrapper-18" role="menuitem">About Us</a></li>
+              <li role="none"><a href="#" class="text-wrapper-18" role="menuitem">Blog</a></li>
+            </ul>
+            <button class="button" type="button" aria-label="Contact us">
+              <div class="frame-8"><img class="vector-4" src="image/Envelope.svg" alt="" /></div>
+              <span class="text-wrapper-16">Contact us</span>
+            </button>
+          </div>
+        </nav>
+        <div class="nav-bar-2">
+          <div class="frame-28" role="group" aria-label="Language selection">
+            <button class="frame-29" type="button" aria-pressed="true" aria-label="English language selected">
+              <span class="text-wrapper-19">English</span>
+            </button>
+            <button class="frame-30" type="button" aria-pressed="false" aria-label="Switch to French">
+              <span class="text-wrapper-20">Français</span>
+            </button>
+          </div>
+        </div>
+      </header>
+      <section class="hero-section" aria-labelledby="hero-title">
+        <div class="hero-image-wrapper">
+          <img
+            class="hero-background"
+            src="image/background hero.png"
+            alt="green background image"
+          />
+          <div class="hero-text-content">
+            <h1 id="hero-title" class="text-wrapper-15">Reserve Your Camping Adventure</h1>
+            <div class="flexcontainer">
+              <p class="text">
+                <span class="span">Book your perfect camping spot in Ontario's most beautiful parks with <br /></span>
+              </p>
+              <p class="text"><span class="span">our easy step-by-step reservation system</span></p>
+            </div>
+          </div>
+        </div>
+      </section>          
+      <main class="frame">
+        <div class="div">
+          <section class="frame-2" aria-labelledby="form-title">
+            <div class="frame-3">
+              <nav class="div-2" role="tablist" aria-label="Reservation steps">
+                <div class="div-3" role="tab" aria-selected="true" aria-controls="personal-details-panel">
+                  <div class="group"><div class="ellipse" aria-hidden="true"></div></div>
+                  <span class="text-wrapper">Personal details</span>
+                </div>
+                <img class="arrow-right-s-line" src="image/ArrowRight.svg" alt="" aria-hidden="true" />
+                <div class="div-3" role="tab" aria-selected="false" aria-controls="payment-details-panel">
+                  <div class="ellipse-wrapper"><div class="ellipse-2" aria-hidden="true"></div></div>
+                  <span class="text-wrapper-2">Payment details</span>
+                </div>
+                <img class="arrow-right-s-line" src="image/ArrowRight.svg" alt="" aria-hidden="true" />
+                <div class="div-3" role="tab" aria-selected="false" aria-controls="confirmation-panel">
+                  <div class="ellipse-wrapper"><div class="ellipse-2" aria-hidden="true"></div></div>
+                  <span class="text-wrapper-3">Confirmation/Receipt</span>
+                </div>
+              </nav>
+              <form class="frame-4" id="personal-details-panel" role="tabpanel" aria-labelledby="form-title">
+                <div class="frame-5">
+                  <div class="frame-6">
+                    <label for="first-name" class="text-wrapper-4">First name</label>
+                    <div class="frame-wrapper">
+                      <div class="frame-7">
+                        <img class="frame-8" src="image/User.svg" alt="" aria-hidden="true" />
+                        <input
+                          type="text"
+                          id="first-name"
+                          name="firstName"
+                          value="John"
+                          class="text-wrapper-5"
+                          required
+                          aria-describedby="first-name-error"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="frame-6">
+                    <label for="last-name" class="text-wrapper-4">Last name</label>
+                    <div class="frame-wrapper">
+                      <div class="frame-7">
+                        <img class="frame-8" src="image/User.svg" alt="" aria-hidden="true" />
+                        <input
+                          type="text"
+                          id="last-name"
+                          name="lastName"
+                          value="Doe"
+                          class="text-wrapper-5"
+                          required
+                          aria-describedby="last-name-error"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="frame-5">
+                  <div class="frame-9">
+                    <label for="email" class="text-wrapper-4">Email address</label>
+                    <div class="div-wrapper">
+                      <div class="frame-7">
+                        <img class="frame-8" src="image/Envelope.svg" alt="" aria-hidden="true" />
+                        <input
+                          type="email"
+                          id="email"
+                          name="email"
+                          value="XXXXXX@gmail.com"
+                          class="text-wrapper-5"
+                          required
+                          aria-describedby="email-error"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="frame-6">
+                    <label for="phone" class="text-wrapper-4">Phone number</label>
+                    <div class="frame-wrapper">
+                      <div class="frame-7">
+                        <div class="frame-8">
+                          <img class="vector" src="image/DevicePhoneMobile.svg" alt="" aria-hidden="true" />
+                        </div>
+                        <input
+                          type="tel"
+                          id="phone"
+                          name="phone"
+                          placeholder="Phone number"
+                          class="text-wrapper-5"
+                          aria-describedby="phone-error"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <button class="contactus-button" type="submit" form="personal-details-panel">
+              <div class="frame-8"><img class="img" src="image/ArrowRight.svg" alt="" aria-hidden="true" /></div>
+              <span class="text-wrapper-6">Continue</span>
+            </button>
+          </section>
+          <aside class="frame-10" aria-labelledby="summary-title">
+            <h2 id="summary-title" class="text-wrapper-7">Summary</h2>
+            <img class="image" src="image/lakeview.png" alt="Chutes Provincial Park scenic view" />
+            <div class="frame-11">
+              <div class="frame-12">
+                <h3 class="text-wrapper-8">Chutes Provincial Park</h3>
+              </div>
+              <div class="frame-13">
+                <div class="frame-8">
+                  <div class="overlap-group">
+                    <img class="vector-2" src="img/image.svg" alt="" aria-hidden="true" />
+                    <img class="vector-3" src="image/MapPin.svg" alt="" aria-hidden="true" />
+                  </div>
+                </div>
+                <address class="text-wrapper-9">Massey, ON</address>
+              </div>
+            </div>
+            <img class="line" src="img/line-6.svg" alt="" aria-hidden="true" />
+            <img class="line-2" src="img/line-7.svg" alt="" aria-hidden="true" />
+            <img class="line-3" src="img/line-8.svg" alt="" aria-hidden="true" />
+            <dl class="frame-14">
+              <div class="frame-15">
+                <dt class="text-wrapper-10">Guests</dt>
+                <dd class="text-wrapper-11">4</dd>
+              </div>
+              <div class="frame-15">
+                <dt class="text-wrapper-12">Equipment</dt>
+                <dd class="text-wrapper-11">5</dd>
+              </div>
+              <div class="frame-15">
+                <dt class="text-wrapper-12">Reservations</dt>
+                <dd class="text-wrapper-11">Yes</dd>
+              </div>
+            </dl>
+            <dl class="frame-16">
+              <div class="frame-15">
+                <dt class="text-wrapper-10">Fee</dt>
+                <dd class="text-wrapper-11">$150.00</dd>
+              </div>
+              <div class="frame-15">
+                <dt class="text-wrapper-12">Taxes</dt>
+                <dd class="text-wrapper-11">$24.00</dd>
+              </div>
+              <div class="frame-15">
+                <dt class="text-wrapper-12">Others</dt>
+                <dd class="text-wrapper-11">$28.00</dd>
+              </div>
+            </dl>
+            <div class="frame-17">
+              <span class="text-wrapper-13">Total</span>
+              <span class="text-wrapper-14">$202.00</span>
+            </div>
+          </aside>
+        </div>
+      </main>
+      <section class="frame-19">
+        <div class="frame-20">
+          <div class="frame-21">
+            <div class="text-and-supporting">
+              <h2 class="text-2">Join our newsletter</h2>
+              <p class="supporting-text">Banking technology that has your back.</p>
+            </div>
+            <form class="email-capture" role="search" aria-label="Newsletter signup">
+              <div class="input-field">
+                <div class="input-with-label">
+                  <div class="input">
+                    <input
+                      class="content"
+                      placeholder="Enter your email"
+                      type="email"
+                      name="newsletter-email"
+                      aria-label="Email address for newsletter"
+                      required
+                    />
+                  </div>
+                </div>
+              </div>
+              <button class="button" type="submit">
+                <span class="text-wrapper-16">Contact us</span>
+              </button>
+            </form>
+          </div>
+        </div>
+        <footer class="frame-22">
+          <div class="frame-23">
+            <div class="frame-15">
+              <div class="frame-24">
+                <img class="logo" src="image/logo ontario parks.png" alt="Ontario Parks Logo" />
+                <p class="p">
+                  Ontario parks help to choose many parks to visit from &amp; gives you the perks of the parks.
+                </p>
+              </div>
+              <nav class="frame-25" aria-label="Footer navigation">
+                <div class="footer-links-column">
+                  <h3 class="heading">Parks</h3>
+                  <ul class="footer-links">
+                    <li class="div-3">
+                      <button class="button-2" type="button">
+                        <span class="text-3">Overview</span>
+                      </button>
+                    </li>
+                    <li class="div-3">
+                      <button class="button-2" type="button">
+                        <span class="text-3">Features</span>
+                      </button>
+                    </li>
+                    <li class="div-3">
+                      <button class="button-2" type="button">
+                        <span class="text-3">Solutions</span>
+                      </button>
+                    </li>
+                  </ul>
+                </div>
+                <div class="footer-links-column">
+                  <h3 class="heading">About us</h3>
+                  <ul class="footer-links">
+                    <li class="div-3">
+                      <button class="button-2" type="button">
+                        <span class="text-3">About us</span>
+                      </button>
+                    </li>
+                    <li class="div-3">
+                      <button class="button-2" type="button">
+                        <span class="text-3">Careers</span>
+                      </button>
+                    </li>
+                    <li class="div-3">
+                      <button class="button-2" type="button">
+                        <span class="text-3">Press</span>
+                      </button>
+                    </li>
+                    <li class="div-3">
+                      <button class="button-2" type="button">
+                        <span class="text-3">News</span>
+                      </button>
+                    </li>
+                  </ul>
+                </div>
+                <div class="footer-links-column">
+                  <h3 class="heading">Resources</h3>
+                  <ul class="footer-links">
+                    <li class="div-3">
+                      <button class="button-2" type="button">
+                        <span class="text-3">Blog</span>
+                      </button>
+                    </li>
+                    <li class="div-3">
+                      <button class="button-2" type="button">
+                        <span class="text-3">Newsletter</span>
+                      </button>
+                    </li>
+                    <li class="div-3">
+                      <button class="button-2" type="button">
+                        <span class="text-3">Events</span>
+                      </button>
+                    </li>
+                    <li class="div-3">
+                      <button class="button-2" type="button">
+                        <span class="text-3">Help centre</span>
+                      </button>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+            </div>
+            <div class="content-2">
+              <p class="footer-text">© 2025 Ontario parks. All rights reserved.</p>
+              <div class="div-2">
+                <a href="#" aria-label="Follow us on LinkedIn">
+                  <img class="social-icon" src="image/linkedin icon.png" alt="LinkedIn" />
+                </a>
+                <a href="#" aria-label="Follow us on Facebook">
+                  <img class="social-icon" src="image/facebook icon.png" alt="Facebook" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </section>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,6 @@
+{
+  "command": "npx \"@builder.io/dev-tools@latest\" code  --url vcp://quickcopy/vcp-b60d9dfebc394395a8d0ed96a86a7b1c --spaceId ",
+  "serverUrl": "file:///Users/dhara/Documents/Web%20Dev%20Sem-2%20/IXD-Studio-2/Ontario%20Parks%20/index.html",
+  "authenticateProxy": false,
+  "commitMode": "commits"
+}
